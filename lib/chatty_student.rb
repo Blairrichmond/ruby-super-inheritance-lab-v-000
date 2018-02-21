@@ -9,9 +9,10 @@ class ChattyStudent < Student
   def raise_hand
     super
     x = 0
-    x += 1
+    
     while 0 < 10
     puts "Pick me!"
+    x += 1
   end
 
   end
